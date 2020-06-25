@@ -25,6 +25,6 @@
     se encontrar retorna o índice que se encontra o elemento,
     senão -1
 */
-int binarySearch(int *v, int value);
+int binarySearch(int *v, int tam, int value);
 
 #endif
