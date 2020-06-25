@@ -4,7 +4,7 @@
 
 /*
     Protótipo da função de busca binária
-    em um vetor de inteiros
+    para operar em um vetor de inteiros
 */
 
 /*
