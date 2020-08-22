@@ -15,16 +15,16 @@
 
 int binarySearch(int *v, int tam, int value)
 {
-    int ini = 0, fim = tam - 1, meio;
-    while (ini <= fim)
+    int ini = -1, fim = tam, meio;
+    while (ini + 1 < fim)
     {
-        meio = ini + (fim - ini) / 2;
+        meio = (ini + fim) / 2;
         if (v[meio] == value)
             return meio;
         if (v[meio] < value)
-            ini = meio + 1;
+            ini = meio;
         else
-            fim = meio - 1;
+            fim = meio;
     }
     return -1;
 }
