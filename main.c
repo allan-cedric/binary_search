@@ -40,6 +40,8 @@ int main()
         printf("Value not found => index(%i).\n", index);
     else
         printf("Value found => index(%i).\n", index);
+    
+    free(arr);
 
     return 0;
 }
